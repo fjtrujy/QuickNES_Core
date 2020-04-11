@@ -1,4 +1,4 @@
-/* Copyright (C) 2010-2018 The RetroArch team
+/* Copyright (C) 2010-2020 The RetroArch team
  *
  * ---------------------------------------------------------------------------------------------
  * The following license statement only applies to this libretro API header (libretro_d3d.h)
@@ -57,8 +57,6 @@ struct retro_hw_render_interface_gskit_ps2
    * in this interface.
    */
    GSTEXTURE *coreTexture;
-   bool clearTexture;
-   bool updatedPalette;
    struct retro_hw_ps2_insets padding;
 };
 typedef struct retro_hw_render_interface_gskit_ps2 RETRO_HW_RENDER_INTEFACE_GSKIT_PS2;
